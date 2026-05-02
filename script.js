@@ -10,7 +10,7 @@ if (path.includes("index.html") || path.endsWith("/") || path.endsWith("/shop"))
     }
 }
 
-const API = "https://github.com/AskiNerl/shop"; // сюда Railway ссылку
+const API = "https://shop-n3qe.onrender.com"; // сюда Railway ссылку
 
 async function register() {
     const username = document.getElementById("username").value;
